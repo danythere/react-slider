@@ -1,0 +1,23 @@
+.Slider {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 50px);
+  min-height: 200px;
+  min-width:700px;
+  align-items: center;
+}
+
+.Slide {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 60px);
+  margin-top: 60px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.NextBtn {
+  padding: 0 20px;
+}

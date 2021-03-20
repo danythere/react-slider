@@ -1,0 +1,19 @@
+.PreviewGrid {
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.PreviewRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Photo {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
